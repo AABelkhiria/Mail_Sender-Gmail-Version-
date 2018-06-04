@@ -31,3 +31,29 @@ Before executing the main.py python program, you will have to edit the program t
 ```
 
 * You are asked to delete the **##attachment** section if you don't want to attach any file in your mail.
+
+#### More precisely
+
+* Your mail should be written in the 7th line
+
+```python
+fromaddr = "your mail here"
+```
+
+* The mail topic recorded in the 26th line
+
+```python
+    msg['Subject'] = "The mail subject here !"
+```
+
+* The mail body in the 29th line. In order to make a line break, you have to write **'\n'** character
+
+```python
+    body = "The mail body here !"
+```
+
+* The password is set in the **# Authentication** section, by the 62th line
+
+```python
+    s.login(fromaddr, "Password here !")
+```
